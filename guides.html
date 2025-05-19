@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" /> <!-- Sets UTF-8 character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Ensures proper scaling on all devices -->
+    <link rel="stylesheet" href="styles.css" /> <!-- External custom CSS (for classes like .tc) -->
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> <!-- Loads Tailwind CSS via CDN -->
+  </head>
+
+  <body class="tektur tc bc wrapper">
+    <!-- Navigation Bar -->
+    <div class="border-b py-4 pl-0 position: fixed" style="background-color: black;"> <!-- Bottom border, top/bottom padding, no left padding -->
+      <div class="flex items-center mx-4"> <!-- Flex layout with horizontal margin -->
+        
+        <!-- Logo image  -->
+        <img src="Logo.svg" width="250" />
+
+        <!-- Navigation Links -->
+        <nav class="ml-125"> <!-- Custom left margin (check if ml-125 is defined properly or use Tailwind's standard spacing like ml-[125px]) -->
+          <ul class="flex space-x-3 text-xl"> <!-- Horizontal nav list with spacing -->
+            <li><a href="index.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">HOME</a></li>
+            <li><a href="warframes.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">WARFRAMES</a></li>
+            <li><a href="weapons.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">WEAPONS</a></li>
+            <li><a href="guides.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">GUIDES</a></li>
+            <li><a href="https://forums.warframe.com/" target="_blank" class="px-4 py-2 hover:bg-gray-600 rounded-md">FORUM</a></li>
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+
+    <!-- Main Content -->
+     <div class="pt-24 text-xl">
+      <ul class="space-y-2 px-4"> <!-- Vertical spacing between list items, padding, and custom text color (tc) -->
+        <li class="py-4 text-5xl">BEGINNER TIPS</li> <!-- Section title -->
+        
+        <!-- Tips  -->
+        <li>
+          Starting Warframe can feel overwhelming, but here are some focused tips to help you get going without confusion:
+        </li>
+        <li>
+          <strong>1. Choose the right Warframe</strong>
+          <p>At the beginning, you'll choose between Excalibur, Mag, and Volt.</p>
+          <ul class="bullet">
+            <li> Excalibur – Great for balanced gameplay and melee focus.</li>
+            <li> Volt – Offers speed and team buffs, ideal for fast missions.</li>
+            <li> Mag – Can be strong later but has a learning curve.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>2. Follow the Star Chart Progression</strong>
+          <p>Clear missions node-by-node on the Star Chart. Each planet unlocks the next through junctions, which have goals like completing quests or<br> crafting weapons.</p>
+        </li>
+        <li>
+          <strong>3. Mastery Rank (MR) Matters</strong>
+          <p>MR increases your access to better weapons and Warframes. To level it up, use new weapons and Warframes—each one grants XP once, so<br> variety is key</p>
+        </li>
+        <li>
+          <strong>4. Join a clan early</strong>
+          <p> MR increases your access to better weapons and Warframes. To level it up, use new weapons and Warframes—each one grants XP once, so<br> variety is key.</p>
+        </li>
+        <li>
+          <strong>5. Keep Leveling and Replacing Gear</strong>
+          <p> Focus on leveling up as many weapons and Warframes as you can to gain Mastery Rank XP. Even weak gear helps you progress when leveled <br>to 30.</p>
+        </li>
+        <li class="py-4 text-5xl">MODDING TIPS</li>
+        <li>
+          Mods are what make your weapons and Warframes strong in Warframe. Understanding how to use them is key to surviving higher-level missions.
+        </li>
+        <li>
+          <strong>1. What are mods?</strong>
+          <p>Mods are upgrade cards that boost damage, health, shields, energy capacity, ability strength, and more. Every weapon, Warframe, companion,<br> and Archwing has its own mod slots.</p>
+        </li>
+        <li>
+          <strong>2. How to equip mods</strong>
+          <p>Go to your Arsenal, select a Warframe or weapon, and hit "Upgrade." Drag mods into the available slots. Each mod costs energy (mod capacity) to<br> equip.</p>
+        </li>
+        <li>
+          <strong>3. Mod Capacity</strong>
+          <p>Your mod capacity is equal to your item’s level (1–30). If you install a reactor (Warframe) or catalyst (weapon), it doubles the capacity (called <br>"potatoing").</p>
+        </li>
+        <li>
+          <strong>4. Polarities and Matching</strong>
+          <p>Some mod slots have symbols (like "D" or "V"). Matching a mod’s symbol to the slot cuts its cost in half. Mismatching increases the cost.</p>
+        </li>
+        <li>
+          <strong>5. Upgrade mods with endo</strong>
+          <p> You can fuse Endo and credits into mods to increase their strength. A Level 0 mod might give +15% power, while the same mod at max level<br> gives +90%.</p>
+        </li>
+        
+      </ul>
+     </div>
+  </body>
+</html>

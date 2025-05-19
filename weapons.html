@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" /> <!-- Sets the character encoding to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Ensures responsive layout on all devices -->
+    <link rel="stylesheet" href="styles.css" /> <!-- Link to your custom CSS file (e.g., for .bc and .tc classes) -->
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> <!-- Load Tailwind CSS from CDN -->
+  </head>
+
+  <body class="tektur tc bc wrapper">
+    <!-- Top navigation bar -->
+    <div class="border-b py-4 pl-0 position: fixed" style="background-color: black;"> <!-- Bottom border and padding, with custom border color from .bc -->
+        <div class="flex items-center mx-4"> <!-- Flexbox layout to align logo and nav menu -->
+            <img src="Logo.svg" width="250" /> <!-- Logo image  -->
+
+            <nav class="ml-125"> <!-- Navigation menu with custom left margin -->
+              <ul class="flex space-x-3 text-xl"> <!-- Flex row of nav items with spacing and large text -->
+                  <!-- Navigation links -->
+                  <li><a href="index.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">HOME</a></li>
+                  <li><a href="warframes.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">WARFRAMES</a></li>
+                  <li><a href="weapons.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">WEAPONS</a></li>
+                  <li><a href="guides.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">GUIDES</a></li>
+                  <li><a href="https://forums.warframe.com/" target="_blank" class="px-4 py-2 hover:bg-gray-600 rounded-md">FORUM</a></li>
+              </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Main content: weapons section -->
+     <div class="pt-24">
+      <ul class="space-y-2 px-4"> <!-- Vertically spaced list with padding and custom text color (.tc) -->
+        <li class="py-4 text-5xl">WEAPONS</li> <!-- Section header -->
+        <li class="flex text-4xl space-x-65 ml-55">
+            <p>PRIMARY</p>
+            <p>SECONDARY</p>
+            <p class="ml-35">MELEE</p>
+        </li>
+        <li class="flex">
+          <img src="Cedo.svg" class="-ml-2">
+          <p><span class="text-4xl ml-10"> CEDO</span><br>
+            A powerful shotgun that<br> launches ricocheting<br> glaives. Its alt-fire shoots</br> a spreading buckshot<br> blast. Excellent for status<br> builds.</p>
+          <img src="Laetum.svg">
+          <p><span class="text-4xl ml-10"> LAETUM</span><br>
+            An Incarnon pistol with<br> extremely high damage potential. Builds up<br> Incarnon charge and<br> transforms into a<br> powerful beam weapon.</p>
+          <img src="Harmony.svg">
+          <p><span class="text-4xl ml-10"> HARMONY</span><br>
+            A musical melee weapon<br> (based on the Duviri<br> Paradox theme) that creates<br> resonating AoE pulses. Great for<br> crowd control.</p>
+        </li>
+        <li class="flex">
+          <img src="Nataruk.svg" class="-ml-2">
+          <p><span class="text-4xl ml-10"> NATARUK</span><br>
+            A Sentient bow<br> introduced in The New War.<br> Has a unique<br> perfect-release mechanic<br> that boosts damage and<br> critical hits.</p>
+          <img src="Grimoire.svg">
+          <p><span class="text-4xl ml-10"> GRIMOIRE</span><br>
+            A unique secondary shaped like a floating<br> book that fires homing energy projectiles.<br> Stylish and effective.</p>
+          <img src="Paracesis.svg">
+          <p><span class="text-4xl ml-10"> PARACESIS</span><br>
+            A powerful greatsword<br> with Sentient-slaying<br> bonuses and increasing mod<br> capacity with each rank-up<br> to level 40.</p>
+        </li>
+        <li class="flex">
+          <img src="Fulmin.svg" class="-ml-2">
+          <p><span class="text-4xl ml-10"> FULMIN</span><br>
+            A hybrid rifle that can<br> switch between silent<br> semi-auto mode and a<br> full-auto electric burst<br> mode. Ideal for versatility.</p>
+          <img src="Epitaph.svg">
+          <p><span class="text-4xl ml-10"> EPITAPH</span><br>
+            A wrist-mounted gun used by Sevagoth. Fires<br> charged shots for high damage<br> or uncharged<br> shots to apply status effects.</p>
+          <img src="Nikana.svg">
+          <p><span class="text-4xl ml-10"> NIKANA</span><br>
+            A traditional Japanese<br> katana-style weapon<br> with fast attacks and<br> high slash damage.</p>
+        </li>
+      </ul>
+     </div>
+  </body>
+</html>
